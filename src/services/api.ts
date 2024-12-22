@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:3000/api',  
-});
+    baseURL: 'https://api-sessions-production.up.railway.app/api/v1"
 
 // Adicionar token automaticamente, se disponível
 api.interceptors.request.use((config) => {
